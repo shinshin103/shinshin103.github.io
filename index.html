@@ -1,76 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <link href='https://hajimeblog0512.files.wordpress.com/2018/04/c256.png'/>
-    <title>しん鯖ホームページ</title>
+<meta charset="UTF-8">
+<title>しん鯖</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<span class="shadow">ようこそ！</span>
-<h1>このサーバーは、BedWarsサーバーです</h1>
-<h1>ip:shinshin.ddns.net</h1>
-<h1>English</h1>
-<span class="shadow">welcome</span>
-<h1>this server is BedWars server!</h1>
-<span class="blink">ようこそ</span>
-<style type="text/css">
-.blink {
-  animation: blinkAnime 1s infinite alternate;
-}
-@keyframes blinkAnime{
-   0% { color: #000000 }
- 100% { color: #66ff66 }
-}
-</style>
-<div class="baseBox">
-    <div class="backStr">ありがとう</div>
-    <div class="frontStr">製作者<br>sinshin103<br>adminも</div>
+
+<section class="conA">
+<div class="container">
+	<img src="img/logo.svg" alt="">
+	<h1>TigerClient</h1>
+	<p>ユーティリティーMod</p>
+	<a href="#">ダウンロード！</a>
 </div>
-<style type="text/css">
+</section>
 
-.baseBox {
- /* --- 親BOXの定義 --------------------------------------------*/
-  display       : inline-block;         /* インラインブロック化 */
-  position      : relative;             /* 親要素               */
-  overflow      : hidden;               /* はみ出しは非表示     */
-  margin        : 0 auto;               /* BOXの位置(中央寄せ)  */
-  width         : 240px;                /* BOXの横幅            */
-  height        : 160px;                /* BOXの高さ            */
-  background    : #fff;                 /* BOXの背景色          */
-}
-
- /* --- 前面文字の定義 -----------------------------------------*/
-.baseBox .frontStr {
-  display       : inline-block;         /* インラインブロック化 */
-  position      : absolute;             /* 親要素からの相対位置 */
-  padding       : 20px;                 /* BOX内の余白          */
-  border        : 2px solid #999;       /* BOXの枠線            */
-  font-size     : 18pt;                 /* 前景文字のサイズ     */
-  font-weight   : bold;                 /* 太字                 */
-  top           : 0;                    /* 親要素にサイズにする */
-  left          : 0;
-  right         : 0;
-  bottom        : 0;
-}
- /* --- 背景透かし文字の定義 -----------------------------------*/
-.baseBox .backStr {
-  position      : absolute;             /* 親要素からの相対位置 */
-  display       : inline-block;         /* インラインブロック化 */
-  white-space   : nowrap;               /* 折り返ししない       */
-  font-size     : 40pt;                 /* 背景透かし文字サイズ */
-  font-weight   : bold;                 /* 太字                 */
-  color         : rgba(255, 102, 255, 0.80); /* 背景透かし文字色     */
-                                        /* 中心寄せ＆角度       */
-  top           : 50%;
-  left          : 50%;
-  transform     : translate(-50%, -50%)
-                  rotate(315deg);
-}
-</style>
-<style>
- body {
-  color: gray;
-}
-</style>
 </body>
 </html>
