@@ -28,7 +28,7 @@ body {
 	justify-content: center;
 	height: 100vh;
 	min-height: 450px;
-	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(img/https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IronException_2b2t_Spawn_Render_June_2019.png/1920px-IronException_2b2t_Spawn_Render_June_2019.png);
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IronException_2b2t_Spawn_Render_June_2019.png);
 	background-position: center;
 	background-size: cover;
 	color: #fff;
